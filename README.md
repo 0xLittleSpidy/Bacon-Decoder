@@ -62,7 +62,7 @@ The decoded text is printed to the console.
 
 ### Input File (`encrypted.txt`):
 ```
-AABBA AABBB ABAAA! This is a test.
+AABBB AABAA ABABB ababb abbba! This is a test.
 ```
 
 ### Command:
@@ -72,8 +72,8 @@ python bacon_decoder.py --file encrypted.txt --debug
 
 ### Output:
 ```
-Cipher Groups: ['AABBA', ' ', 'AABBB', ' ', 'ABAAA', '!', ' ', 'T', 'h', 'i', 's', ' ', 'i', 's', ' ', 'a', ' ', 't', 'e', 's', 't', '.']
-Decoded Text: HELLO! This is a test.
+Cipher Groups: ['AABBB', ' ', 'AABAA', ' ', 'ABABB', ' ', 'ababb', ' ', 'abbba', '!', ' ', 'T', 'h', 'i', 's', ' ', 'i', 's', ' ', ' ', 't', 'e', 's', 't', '.']
+Decoded Text: H E L l o! This is  test.
 ```
 
 ## Contributing
