@@ -82,4 +82,3 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ---
 
 Enjoy decoding messages with Bacon's Cipher! 🥓
-```
